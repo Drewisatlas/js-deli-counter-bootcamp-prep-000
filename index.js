@@ -2,8 +2,8 @@ var katzDeli = [];
 var katzDeliLine = [] ;
 
 function takeANumber(katzDeliLine) {
-  let i=0;
-  [...katzDeli, katzDeliLine];
+  
+  [...katzDeliLine, katzDeliLine];
   return  `Welcome. You are number ${i+1}.`;
 }
 
@@ -27,7 +27,7 @@ function currentLine(katzDeliLine){
     }
 }
 
-console.log(takeANumber(katzDeliLine, 'Bobby'));
+console.log(takeANumber(katzDeliLine));
 console.log(takeANumber(katzDeliLine, 'Peggy'));
 console.log(takeANumber(katzDeliLine, 'Hank'));
 console.log(currentLine(katzDeliLine));
